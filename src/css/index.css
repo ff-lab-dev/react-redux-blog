@@ -1,0 +1,112 @@
+.nav-link {
+	all: none !important;
+}
+
+.navbar {
+	-webkit-box-shadow: 0 5px 5px -5px #999 !important;
+	-moz-box-shadow: 0 5px 5px -5px #999 !important;
+	box-shadow: 0 5px 5px -3px #999 !important;
+}
+
+.footer {
+	margin: 5em 0em 0em !important;
+	padding: 5em 0em !important;
+	-webkit-box-shadow: 0px -2px 5px 0px #999 !important;
+	-moz-box-shadow: 0px -2px 5px 0px #999 !important;
+	box-shadow: 0px -2px 5px 0px #999 !important;
+}
+
+.segment {
+	border-radius: 10px !important;
+}
+
+.blog-card {
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12), 0 1px 8px rgba(0, 0, 0, 0.24) !important;
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+	border-radius: 10px !important;
+	color: aqua;
+}
+
+.blog-card-img {
+	border-radius: 0.28571429rem !important;
+}
+
+.blog-detail-content,
+.blog-detail-content p {
+	font-size: 16px !important;
+	line-height: 1.8 !important;
+}
+
+.blog-item-title {
+	color: black !important;
+	transition: color ease 0.2s !important;
+}
+
+.blog-item-title:hover {
+	color: #4183c4 !important;
+}
+
+.blog-card:hover {
+	box-shadow: 0 3px 28px rgba(0, 0, 0, 0.25), 0 3px 10px rgba(0, 0, 0, 0.22) !important;
+}
+
+.blog-card-title {
+	font-size: 15px !important;
+}
+
+.blog-details-title {
+	font-size: 25px !important;
+}
+
+.if-active-user-meta {
+	margin-top: 3px !important;
+	font-size: 13px !important;
+}
+
+.home-nav-link:hover {
+	background: rgba(255, 255, 255, 0.08) !important;
+	color: #fff !important;
+}
+
+@media (max-width: 500px) {
+	.blog-card-title {
+		font-size: 14px !important;
+	}
+
+	.blog-card-icon {
+		margin-top: 3px;
+		font-size: 12px !important;
+	}
+
+	.blog-card-meta {
+		font-size: 13px !important;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	.blog-detail-content {
+		font-size: 14px !important;
+	}
+
+	.blog-details-title {
+		font-size: 18px !important;
+	}
+}
+
+@media (max-width: 420px) {
+	.blog-card-title {
+		font-size: 11px !important;
+	}
+
+	.blog-card-meta {
+		font-size: 9px !important;
+	}
+}
+
+@media (max-width: 780px) {
+	.if-active-user-title {
+		font-size: 17px !important;
+	}
+}
